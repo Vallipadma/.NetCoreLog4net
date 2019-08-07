@@ -1,0 +1,8 @@
+---
+applications:
+- name: Log_Core
+  buildpack: dicf_dotnet_core_buildpack_2_2_4 
+env:
+  DBConnectionString : "Data Source= DataSource1; User Id=User;Password=Password;"
+
+  
